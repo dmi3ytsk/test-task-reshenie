@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ChangePassword />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChangePassword from './components/ChangePassword.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChangePassword
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(124.93deg, #F5FCFE 0%, #FFFCF4 99.63%);
 }
 </style>
